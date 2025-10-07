@@ -61,7 +61,7 @@ body {
 
 .header,
 .nav {
-    background: linear-gradient(90deg, var(--surface), transparent);
+    /* background: linear-gradient(90deg, var(--surface), transparent); */
     border-bottom: 1px solid var(--border);
 }
 
@@ -323,10 +323,16 @@ header {
 }
 
 /* Start Continue */
+
+.continue {
+
+    background-color: var(--card);
+}
+
 .section {
     position: relative;
     max-width: 1200px;
-    margin: 60px auto;
+    margin: 0 auto;
 }
 
 h3.section-title {
@@ -470,8 +476,8 @@ h3.section-title {
 /* Start Catalog */
 
 
-.Catalog ul {
-    background-color: var(--card);
+.Catalog .nav {
+    background-color: var(--card) !important;
 }
 
 
@@ -491,7 +497,6 @@ h3.section-title {
 .Catalog .movie-title {
     margin-top: 8px;
     color: #fff;
-    /* غيرها حسب تصميمك */
     font-size: 16px;
     font-weight: 500;
 }
