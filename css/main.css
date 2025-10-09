@@ -309,8 +309,6 @@ a {
 
 /* End nav  */
 
-
-
 /* Start list */
 
 .slider {
@@ -733,4 +731,5 @@ footer img {
 .copyright {
     margin-top: 30px;
     background-color: var(--bg);
+
 }
